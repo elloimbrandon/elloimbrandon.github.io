@@ -8,7 +8,7 @@
   <head>
     <title>Brandon</title>
     <!-- icon tab image -->
-    <link rel="icon" href="b-logo.png" />
+    <link rel="icon" href="../public/images/b-logo.png" />
 
     <!-- google fonts -->
     <link
@@ -33,9 +33,9 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../public/css/styles.css" />
     <!-- mobile css file -->
-    <link rel="stylesheet" href="mobile-styles.css" />
+    <link rel="stylesheet" href="../public/css/mobile-styles.css" />
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
@@ -47,6 +47,13 @@
 
     <!-- possibly take this out due to page refresh flashing -->
     <!-- force to top on reload jquery -->
+    <!-- <script>
+      document.documentElement.scrollTop = 0;
+
+      $(document).ready(function () {
+        $(window).scrollTop(0);
+      });
+    </script> -->
 
     <!-- jquery to hide down arrows when screen size too small -->
     <script>
@@ -105,7 +112,7 @@
     <nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color">
       <a class="navbar-brand" href="index.html">
         <img
-          src="b-logo.png"
+          src="../public/images/b-logo.png"
           width="80"
           height="auto"
           alt="brandon-logo"
@@ -155,7 +162,7 @@
           <div id="main-page-media-mobile">
             <img
               class="circle-img"
-              src="brfeltz.jpg"
+              src="../public/images/brfeltz.jpg"
               alt="brfeltz"
             />
             <div id="hide-description-me">
@@ -213,10 +220,11 @@
     </div>
     <div class="container-fluid d-sm-block" id="about-me">
       <div class="row no-gutters">
+        <!-- changed on delpoy from col-12 to col-1g -->
         <div class="col-lg" id="about-me-container">
           <div class="img-box" id="mobile-pic-container">
             <img
-              src="me-2.jpeg"
+              src="../public/images/me-2.jpeg"
               class="img-fluid mx-auto d-block"
               alt="Responsive image"
               id="about-me-pic"
@@ -311,7 +319,7 @@
             </p>
             <img
             class="michael-scott-img"
-            src="michael-scott-quote.jpg"
+            src="../public/images/michael-scott-quote.jpg"
             alt="brfeltz"
             />
             <a href="#lets-connect-container">
