@@ -1,7 +1,8 @@
 @media only screen 
-and (min-device-width : 375px) 
-and (max-device-height : 820px) 
-and (-webkit-device-pixel-ratio : 3){
+and (min-device-width: 375px) 
+and (min-device-height: 812px)
+and (-webkit-device-pixel-ratio : 3)
+and (orientation: portrait) {
 
     /* all main div content */
     #main-page-media-mobile {
