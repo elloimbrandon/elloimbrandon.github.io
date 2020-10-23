@@ -1,0 +1,440 @@
+
+html, body {
+    /* keeps background flush when resized */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    background-color:black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('BLACK_VIII_desktop-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.center-h4-text {
+    padding-top: 5px;
+}
+
+/* text under typewriter */
+.description-me {
+    color: #e9e0c9;
+    border: 2px solid #e9e0c9;
+    border-radius: 25px;
+    display:inline-block;
+    width: 420px; 
+    margin-top: 20px; 
+    color:#e9e0c9;
+    padding:5px;
+    box-shadow: 0 8px 6px -6px black;
+    /* font-size: 3px; */
+    /* letter-spacing: 1px; */
+}
+
+.description-me h4 {
+    font-size: 22px;
+}
+
+/* font awesome icons */
+.icon-custom {
+    font-size:70px;
+    margin-top: 20px;
+    color: #e9e0c9;
+    padding: 10px;
+}
+.fab:hover {
+    color: rgb(0, 202, 253);
+}
+
+#navbarSupportedContent a:hover {
+    color: rgb(0, 202, 253);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* space in between elements starting after typewriter */
+#pic-typetext{
+    /* height: 50vh; */
+    margin-top: 40px;
+    /* padding-bottom: auto; */
+
+}
+
+#pic-typetext-2{
+    /* height: 50vh; */
+    margin-bottom: 100px;
+    margin-top: 100px;
+    /* padding-bottom: auto; */
+
+}
+
+/* fix circle outline for mobile */
+/* profile pic */
+.circle-img {
+    margin-top: 10px;
+    background-color: rgb(0, 202, 253); ;
+    border: 0.10px solid rgb(0, 202, 253); 
+    border-radius: 51.5%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    box-shadow: 0 8px 6px -6px black;
+
+    /* maybe dont need */
+    /* overflow: hidden; */
+    position: relative;
+
+  }
+
+/* might not need */
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* typerwriter text */
+.typewriter h1 {
+    /* padding-top: 15px; */
+    /* added relative */
+    position: relative;
+    max-width: 412px;
+    color: rgb(0, 202, 253);
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .10em solid rgb(0, 202, 253); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    /* letter-spacing: .15em; Adjust as needed */
+
+    /* media for animation speed */
+    animation:
+      typing 3.1s steps(40, end),
+      blink-caret .75s step-end infinite;
+}
+  
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+  
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(0, 202, 253); }
+}
+
+
+/* fade in animation for description me */
+.fade-in {
+    animation: fadeIn ease 7.5s;
+    -webkit-animation: fadeIn ease 7.5s;
+    -moz-animation: fadeIn ease 7.5s;
+    -o-animation: fadeIn ease 7.5s;
+    -ms-animation: fadeIn ease 7.5s;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+        
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+        
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+        
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+/* arrows and animation */
+
+
+.arrow-container {
+    padding-top: 50px;
+    /* margin-left: -35px; */
+    position: relative;
+    display: inline-block;
+}
+
+#more-arrows {
+    width: 75px;
+    color: rgb(0, 202, 253);
+}
+#more-arrows:hover polygon {
+    fill: rgb(0, 202, 253);
+    transition: all 0.2s ease-out;
+}
+#more-arrows:hover polygon.arrow-bottom {
+    transform: translateY(-18px);
+}
+#more-arrows:hover polygon.arrow-top {
+    transform: translateY(18px);
+}
+polygon {
+    fill: rgb(0, 202, 253);
+    transition: all 0.2s ease-out;
+}
+polygon.arrow-middle {
+    opacity: 0.75;
+}
+polygon.arrow-top {
+    opacity: 0.5;
+}
+
+/* border key movement for addition to navbar */
+@keyframes animatedgradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* navbar bootstrap css */
+.links-nav {
+    font-size: 30px;
+    /* border-bottom: 1px solid grey; */
+    /* border-bottom:1px solid grey; */
+}
+
+.button.navbar-toggler {
+    /* border-radius: 15px; */
+    text-decoration: none;
+    outline: none;
+}
+
+/* about me page */
+
+/* about me div container */
+#about-me {
+    width: 100vw;
+    background-color:#232b2b;
+}
+
+#about-me-container {
+    padding-top: 40px;
+    padding-bottom: 15px;
+
+    /* border: 1px solid red; */
+}
+
+
+#about-me-pic {
+    height: 350px;
+    width: 275px;
+    border-radius: 15px;
+    /* border-radius: 6%; */
+    border: 1px solid rgb(0, 202, 253);
+    box-shadow: 0 8px 6px -6px black;
+    
+    /* border: 1px solid red; */
+    /* position: relative; */
+
+}
+
+#about-me-text-content {
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(0, 202, 253);
+    position: relative;
+    letter-spacing: -2px;
+}
+
+#about-me-text-content-2 {
+    font-family: 'Source Code Pro', monospace;
+    color: #e9e0c9;
+    position: relative;
+    letter-spacing: -2px;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+#about-me-text-content-3 {
+    font-family: 'Source Code Pro', monospace;
+    color: #e9e0c9;
+    position: relative;
+    letter-spacing: -2px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+}
+
+.h4-about-me {
+    text-decoration: underline;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.middle-content {
+    text-align: center;
+    margin-left: 29px;
+    margin-bottom: -4px;
+}
+.middle-content-2 {
+    text-align: center;
+    margin-right: 95px;
+    margin-bottom: -4px;
+}
+.middle-content-3 {
+    text-align: center;
+    margin-left: 4px;
+    margin-bottom: -4px;
+}
+
+.arrow-container-2{
+    text-align: center;
+}
+
+/* my journey div container */
+#My-Journey {
+    /* height: 100vh; */
+    /* background-color: transparent; */
+}
+
+.typewriter-2 h1 {
+    /* added relative */
+    font-size: 60px;
+    position: relative;
+    max-width: 400px;
+    color: rgb(0, 202, 253);
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .10em solid rgb(0, 202, 253); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    /* letter-spacing: .15em; Adjust as needed */
+
+    /* media for animation speed */
+    animation:
+      typing 3.1s steps(40, end),
+      blink-caret .75s step-end infinite;
+}
+
+#pic-typetext-2{
+    /* height: 50vh; */
+    margin-bottom: 50px;
+    margin-top: 100px;
+    /* padding-bottom: auto; */
+
+}
+
+.my-journey-text-container {
+    font-family: 'Source Code Pro', monospace;
+    color: #e9e0c9;
+    position: relative;
+    letter-spacing: -2px;
+    margin-top: 50px;
+    padding: 45px;
+    font-size: 23px;
+    background-color: #232b2b;
+    border-radius: 15px;
+    border: 1px solid grey;
+}
+.michael-scott-img {
+    height: 300px;
+    width: 450px;
+    border: 1px solid rgb(0, 202, 253);
+    box-shadow: 0 8px 6px -6px black;
+    border-radius: 15px;
+}
+
+.arrow-container-3{
+    padding-top: 50px;
+    margin-bottom: -70px;
+    text-align: center;
+}
+
+
+/* lets connect container */
+
+#lets-connect {
+    height: 100vh;
+}
+
+.typewriter-3 h1 {
+    /* added relative */
+    font-size: 60px;
+    position: relative;
+    max-width: 475px;
+    color: rgb(0, 202, 253);
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .10em solid rgb(0, 202, 253); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    /* letter-spacing: .15em; Adjust as needed */
+
+    /* media for animation speed */
+    animation:
+      typing 3.1s steps(40, end),
+      blink-caret .75s step-end infinite;
+}
+
+#pic-typetext-3{
+    margin-bottom: 75px;
+    margin-top: 50px;
+
+}
+
+#contact-form {
+    color: rgb(0, 202, 253);
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid rgb(0, 202, 253);
+    padding: 15px;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-bottom:50px;
+}
+#contact-form label {
+    line-height: 40px;
+    text-decoration: underline;
+    /* line-height: 2.7em; */
+    font-size: 20px;
+}
+
+#contact-form textarea {
+    min-height: 100px;
+    font-size: 14px;
+}
+
+.input-field {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #e9e0c9;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 202, 253);
+    font-size: 14px;
+
+} 
+
+#submit-btn {
+    margin-top: 10px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    background-color: rgb(0, 202, 253);
+    border: none;
+    border-radius: 5px;
+}
+

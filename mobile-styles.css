@@ -1,0 +1,251 @@
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-height : 812px) 
+and (-webkit-device-pixel-ratio : 3){
+
+    /* all main div content */
+    #main-page-media-mobile {
+        margin-top: -500px;
+        /* border: 1px solid red; */
+    }
+    /* me discription fade in */
+    .description-me {
+        color: #e9e0c9;
+        border: 3px solid #e9e0c9;
+        border-radius: 25px;
+        display:inline-block;
+        width: 775px; 
+        margin-top: 30px; 
+        color:#e9e0c9;
+    }
+
+    .description-me h4 {
+        font-size: 40px;
+    }
+
+    /* font awesome content */
+    .icon-custom {
+        font-size:120px; 
+        /* border: 1px solid red; */
+        padding: 15px;
+    }
+    
+    /* photo trait here */
+    .circle-img {
+        background-color: rgb(0, 202, 253); ;
+        border: 2px solid rgb(0, 202, 253); 
+        border-radius: 50.5%;
+        height: 400px;
+        width: 400px;
+        object-fit: cover;
+      }
+
+    /* distance from pic to type text */
+    #pic-typetext{
+        height: 20vh;
+        margin-top: 60px;
+    }
+
+    /* typewriter text */
+    .typewriter h1 {
+        /* padding-top: 15px; */
+        max-width: 800px;
+        color: rgb(0, 202, 253);
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: .10em solid white; /* The typwriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        font-size: 78px;
+
+    
+        /* media for animation speed */
+        animation: 
+          typing 2s steps(30, end),
+          blink-caret .75s step-end infinite;
+      }
+
+      /* arrow-down */
+    .arrow-container {
+        /* padding-top: 500px;
+        margin-left: -44px;
+        position: absolute; */
+        display: none;
+    }
+
+    .arrow-container-2{
+        display: none;
+    }
+
+    .arrow-container-3{
+        display: none;
+    }
+
+    svg.polygon {
+        height: 300px;
+        width: 300px;
+    }
+    
+    #more-arrows {
+        width: 75px;
+        height: 65px;
+        color: rgb(0, 202, 253) ;
+    }
+
+    /* navbar css mobile */
+    #toggler-make-bigger {
+        outline: none;
+        height: 5vh;
+        width: 6vh;
+        /* font-size: 50px; */
+        padding-bottom: 10px;
+        display: inline-block;
+        /* border: 1px solid red; */
+    }
+    /* .button.navbar-toggler {
+        border-radius: 15px;
+        text-decoration: none;
+        outline: none;
+    } */
+
+    .nav-link {
+        font-size: 80px;
+        margin-bottom: 0;
+    }
+
+    .navbar navbar-brand {
+        font-size: 80px;
+    }
+
+    /* logo at top right of page */
+    #logo-me {
+        width: 120px;
+        height: auto;
+    }
+
+    /* about me */
+    #about-me {
+        height: 100vh;
+        width: 100vw;
+        border: 1px solid grey;
+        background-color:#232b2b;
+    
+    }
+
+    #mobile-pic-container {
+        padding-top: 100px;
+        padding-bottom: 20px;
+    }
+
+    #about-me-pic {
+        height: 675px;
+        width: 550px;
+        border-radius: 6%;
+        /* margin-top: 15px; */
+        /* margin-left: 0; */
+        border: 1px solid rgb(0, 202, 253);
+        box-shadow: 0 8px 6px -6px black
+    
+    }
+    .middle-content {
+        text-align: center;
+        margin-bottom: -4px;
+        font-size: 40px;
+    }
+    .middle-content-2 {
+        text-align: center;
+        margin-right: 191px;
+        margin-bottom: -4px;
+        font-size: 40px;
+    }
+    .middle-content-3 {
+        text-align: center;
+        margin-right: 20px;
+        margin-bottom: -4px;
+        font-size: 40px;
+    }
+
+    .h4-about-me {
+        text-decoration: underline;
+        font-size: 60px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    #mobile-h4-1{
+        font-size: 45px;
+    }
+
+    /* my journey page */
+
+    .typewriter-2 h1 {
+        /* added relative */
+        font-size: 100px;
+        position: relative;
+        max-width: 665px;
+        color: rgb(0, 202, 253);
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: .10em solid rgb(0, 202, 253); /* The typwriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        /* letter-spacing: .15em; Adjust as needed */
+                
+        /* media for animation speed */
+        animation: 
+            typing 2s steps(30, end),
+            blink-caret .75s step-end infinite;
+    }
+
+    #pic-typetext-2{
+        /* height: 50vh; */
+        margin-bottom: 100px;
+        margin-top: 150px;
+        /* padding-bottom: auto; */
+    
+    }
+
+    .my-journey-text-container {
+        font-family: 'Source Code Pro', monospace;
+        color: #e9e0c9;
+        position: relative;
+        letter-spacing: -2px;
+        margin-top: 50px;
+        padding: 45px;
+        font-size: 33px;
+        background-color: #232b2b;
+        border-radius: 15px;
+        border: 1px solid grey;
+    }
+
+    .michael-scott-img {
+        height: 400px;
+        width: 600px;
+        border: 1px solid rgb(0, 202, 253);
+        box-shadow: 0 8px 6px -6px black;
+        border-radius: 15px;
+    }
+
+    /* lets connect section */
+    .typewriter-3 h1 {
+        /* added relative */
+        font-size: 60px;
+        position: relative;
+        max-width: 475px;
+        color: rgb(0, 202, 253);
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: .10em solid rgb(0, 202, 253); /* The typwriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        /* letter-spacing: .15em; Adjust as needed */
+    
+        /* media for animation speed */
+        animation:
+          typing 3.1s steps(40, end),
+          blink-caret .75s step-end infinite;
+    }
+    
+    #pic-typetext-3{
+        margin-bottom: 75px;
+        margin-top: 50px;
+    
+    }
+ }
