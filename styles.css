@@ -7,7 +7,8 @@ html, body {
     overflow: scroll;
     scroll-behavior: smooth;
     background-color:black;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('BLACK_VIII_desktop-1.jpg');
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('BLACK_VIII_desktop-1.jpg'); */
+    background-image: url('BLACK_VIII_desktop-1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
