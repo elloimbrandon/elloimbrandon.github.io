@@ -319,6 +319,7 @@ polygon.arrow-top {
 }
 
 .middle-content {
+    padding-top: 15px;
     text-align: center;
     margin-left: 29px;
     margin-bottom: -4px;
