@@ -259,7 +259,7 @@ polygon.arrow-top {
 
 /* about me div container */
 #about-me {
-    width: 100vw;
+    /* width: 100vw; */
     background-color:#232b2b;
 }
 
