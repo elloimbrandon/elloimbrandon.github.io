@@ -297,7 +297,7 @@ polygon.arrow-top {
     position: relative;
     letter-spacing: -2px;
     padding-top: 10px;
-    padding-right: 40px;
+    /* padding-right: 40px; */
     padding-left: 40px;
 }
 
@@ -308,7 +308,7 @@ polygon.arrow-top {
     letter-spacing: -2px;
     padding-top: 10px;
     padding-left: 40px;
-    padding-right: 40px;
+    /* padding-right: 40px; */
     padding-bottom: 60px;
 }
 
