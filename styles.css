@@ -15,6 +15,10 @@ html, body {
     /* position: relative; */
 }
 
+.body-background { 
+    overflow: scroll;
+}
+
 
 /* .body-background { */
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/BLACK_VIII_desktop-1.jpg');
