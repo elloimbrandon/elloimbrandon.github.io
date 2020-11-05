@@ -281,7 +281,7 @@ polygon.arrow-top {
     width: 275px;
     border-radius: 15px;
     /* border-radius: 6%; */
-    border: 1px solid rgb(0, 202, 253);
+    border: 2px solid rgb(0, 202, 253);
     box-shadow: 0 8px 6px -6px black;
     
     /* border: 1px solid red; */
@@ -396,7 +396,7 @@ polygon.arrow-top {
 .michael-scott-img {
     height: 300px;
     width: 450px;
-    border: 1px solid rgb(0, 202, 253);
+    border: 2px solid rgb(0, 202, 253);
     box-shadow: 0 8px 6px -6px black;
     border-radius: 15px;
 }
