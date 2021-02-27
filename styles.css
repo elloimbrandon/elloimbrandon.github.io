@@ -359,7 +359,7 @@ polygon.arrow-top {
     /* added relative */
     font-size: 60px;
     position: relative;
-    max-width: 400px;
+    max-width: 325px;
     color: rgb(0, 202, 253);
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .10em solid rgb(0, 202, 253); /* The typwriter cursor */
@@ -483,3 +483,30 @@ polygon.arrow-top {
     border-radius: 5px;
 }
 
+/* added for project display */
+.project-img {
+    height: 350px;
+    width: 500px;
+    border: 1px solid rgb(0, 202, 253);
+    box-shadow: 0 8px 6px -6px black;
+    border-radius: 15px;
+}
+
+#project-description-color {
+    margin-top: 50px;
+    color: rgb(0, 202, 253);
+}
+
+.my-project-text-container {
+    font-family: 'Source Code Pro', monospace;
+    color: #e9e0c9;
+    position: relative;
+    text-align: center;
+    letter-spacing: -2px;
+    margin-top: 50px;
+    padding: 45px;
+    font-size: 23px;
+    background-color: #232b2b;
+    border-radius: 15px;
+    border: 1px solid grey;
+}

@@ -146,7 +146,7 @@
             <a class="nav-link" href="#about-me-container">About Me</a>
           </li>
           <li class="nav-item ml-auto">
-            <a class="nav-link" href="#My-Journey-container">My Journey</a>
+            <a class="nav-link" href="#My-Journey-container">Projects</a>
           </li>
           <li class="nav-item ml-auto">
             <a class="nav-link" href="#lets-connect-container">Lets Connect!</a>
@@ -158,15 +158,11 @@
   <body class="body-background" id="main-page">
     <div class="container-fluid d-sm-block">
       <!-- <div class="row align-items-center" style="height: 100vh; width: 100vw"> -->
-        <!-- for whatever reason we good now, no gutters right after row? -->
-        <div class="row no-gutters align-items-center" style="height: 100vh;">
+      <!-- for whatever reason we good now, no gutters right after row? -->
+      <div class="row no-gutters align-items-center" style="height: 100vh">
         <div class="col text-center">
           <div id="main-page-media-mobile">
-            <img
-              class="circle-img"
-              src="brfeltz.jpg"
-              alt="brfeltz"
-            />
+            <img class="circle-img" src="brfeltz.jpg" alt="brfeltz" />
             <div id="hide-description-me">
               <div class="typewriter" id="pic-typetext">
                 <div id="border">
@@ -184,9 +180,7 @@
                   </h4>
                 </div>
                 <div class="fade-in">
-                  <a
-                    href="https://www.linkedin.com/in/brandon-f-bb416794/"
-                  >
+                  <a href="https://www.linkedin.com/in/brandon-f-bb416794/">
                     <i class="fab fa-linkedin icon-custom"> </i>
                   </a>
                   <a href="https://github.com/elloimbrandon">
@@ -237,7 +231,9 @@
               <h4 class="middle-content">Name: Brandon Feltz</h4>
               <h4 class="middle-content-2">age: 27</h4>
               <h4 class="middle-content-3">Home-Town: Phoenix, Arizona</h4>
-              <h4 class="middle-content-3">Current-Home: Fremont, California</h4>
+              <h4 class="middle-content-3">
+                Current-Home: Fremont, California
+              </h4>
             </div>
           </div>
         </div>
@@ -246,11 +242,11 @@
             <div id="about-me-text-content-2">
               <h4 class="h4-about-me">About Me:</h4>
               <h4 id="mobile-h4-1">
-                I am a full-stack web developer, front end designer and part-time
-                bartender who enjoy’s building things that have purpose and
-                usability in everyday life! when I’m not programming I like to
-                spend time with family and friends, listen to music, and enjoy
-                meeting new people.
+                I am a full-stack web developer, front end designer and
+                part-time bartender who enjoy’s building things that have
+                purpose and usability in everyday life! when I’m not programming
+                I like to spend time with family and friends, listen to music,
+                and enjoy meeting new people.
               </h4>
             </div>
           </div>
@@ -289,62 +285,87 @@
     </div>
     <div class="container-fluid d-sm-block" id="My-Journey-container">
       <div class="row no-gutters" id="My-Journey">
-        <div class="col text-center">
+        <div class="col">
           <div class="typewriter-2" id="pic-typetext-2">
             <div id="border">
               <h1 style="font-family: 'Source Code Pro', monospace">
-                My Journey.
+                Projects
               </h1>
             </div>
           </div>
-          <div class="my-journey-text-container">
-            <p>
-              In 2018, I started my journey into the
-              world of computer programming. At the very beginning I never felt
-              like I would be able to amount to most my peer’s during a month
-              long bootcamp offered by a French school in Fremont, CA
-              called 42. Over the course of a month you are pushed to your
-              limits with daily exercises that are graded by your peer’s and a
-              grading program that is unforgiving, with tests weekly. At the end
-              you find out if you’re accepted into the school full-time.
-              Ultimately I failed horribly my first time, and thought that
-              computer programming might not be for me. Two days after I
-              receieved the email that I had not been accepted I signed up for
-              the next one, I wasn’t going to let the fear of rejection control
-              my life. With grit and determination I went back and after I had finished
-              the second time I received my acceptance letter and never
-              looked back. This was a pivatol time in my life, I really
-              felt that if I wanted something bad enough I could get it with
-              hard work. It’s been 17 months and I’ve learned so
-              much, made life-long friends, and skills that I genuinely believe
-              can change the world.
-            </p>
+          <div class="my-project-text-container">
             <img
-            class="michael-scott-img"
-            src="michael-scott-quote.jpg"
-            alt="brfeltz"
+              id="mobile-pic-center-1"
+              class="project-img"
+              src="../public/images/minishell-gif.gif"
+              alt="brfeltz"
             />
-            <a href="#lets-connect-container">
-              <div
-                class="arrow-container-3 fade-in"
-                id="hide-arrow-container-3"
+            <div class="col">
+              <h4 id="project-description-color" class="h4-about-me">
+                Minishell
+              </h4>
+              <h4 id="mobile-h4-1">
+                Minishell is a my rendition of a simple unix command line
+                interpreter, including several built in shell functions. Such
+                as: echo, cd, env, setenv, unsetenv, exit.
+              </h4>
+              <a href="https://github.com/elloimbrandon/ft_minishell"
+                >More details</a
               >
-                <svg id="more-arrows">
-                  <polygon
-                    class="arrow-top"
-                    points="37.6,27.9 1.8,1.3 3.3,0 37.6,25.3 71.9,0 73.7,1.3"
-                  />
-                  <polygon
-                    class="arrow-middle"
-                    points="37.6,45.8 0.8,18.7 4.4,16.4 37.6,41.2 71.2,16.4 74.5,18.7"
-                  />
-                  <polygon
-                    class="arrow-bottom"
-                    points="37.6,64 0,36.1 5.1,32.8 37.6,56.8 70.4,32.8 75.5,36.1"
-                  />
-                </svg>
-              </div>
-            </a>
+            </div>
+          </div>
+          <div class="my-project-text-container">
+            <img
+              class="project-img"
+              src="../public/images/ft_ls-gif.gif"
+              alt="brfeltz"
+            />
+            <div class="col">
+              <h4 id="project-description-color" class="h4-about-me">Ls</h4>
+              <h4 id="mobile-h4-1">
+                My recreation of the famous unix command "ls" including several
+                built in flag handlers. Such as: -l, -a, -r, -t, -R.
+              </h4>
+              <a href="https://github.com/elloimbrandon/ft_ls">More details</a>
+            </div>
+          </div>
+          <div class="my-project-text-container">
+            <img
+              class="project-img"
+              src="../public/images/wolf3d-gif.gif"
+              alt="brfeltz"
+            />
+            <div class="col">
+              <h4 id="project-description-color" class="h4-about-me">Wolf3d</h4>
+              <h4 id="mobile-h4-1">
+                Wolf3d is a recreation of the gaming engine used in the game
+                Wolfenstein3D that implements a ray-casting algorithm. Features
+                include: full directional movement, wall collision detection,
+                and modular map creation.
+              </h4>
+              <a href="https://github.com/elloimbrandon/ft_wolf3d"
+                >More details</a
+              >
+            </div>
+          </div>
+          <div class="my-project-text-container">
+            <img
+              class="project-img"
+              src="../public/images/Weather_App.png"
+              alt="brfeltz"
+            />
+            <div class="col">
+              <h4 id="project-description-color" class="h4-about-me">
+                Weather App
+              </h4>
+              <h4 id="mobile-h4-1">
+                This simple weather web app was created using nodejs, express,
+                basic html, and css
+              </h4>
+              <a href="https://github.com/elloimbrandon/Weather_App"
+                >More details</a
+              >
+            </div>
           </div>
         </div>
       </div>
@@ -360,23 +381,31 @@
               </h1>
             </div>
           </div>
-          <form id="contact-form" action="https://formspree.io/f/xyybwbnk" method="POST" style="font-family: 'Source Code Pro', monospace">
+          <form
+            id="contact-form"
+            action="https://formspree.io/f/xyybwbnk"
+            method="POST"
+            style="font-family: 'Source Code Pro', monospace"
+          >
             <label>Name</label>
-            <input required class="input-field" type="text" name="name">
+            <input required class="input-field" type="text" name="name" />
             <label>Subject</label>
-            <input required class="input-field" type="text" name="subject">
+            <input required class="input-field" type="text" name="subject" />
             <label>Email</label>
-            <input required class="input-field" type="text" name="email">
+            <input required class="input-field" type="text" name="email" />
             <label>Message</label>
-            <textarea required class="input-field" type="text" name="message"></textarea>
+            <textarea
+              required
+              class="input-field"
+              type="text"
+              name="message"
+            ></textarea>
 
-            <input id="submit-btn" type="submit" value="Send">            
+            <input id="submit-btn" type="submit" value="Send" />
           </form>
         </div>
       </div>
     </div>
   </body>
-  <footer>
-
-  </footer>
+  <footer></footer>
 </html>
