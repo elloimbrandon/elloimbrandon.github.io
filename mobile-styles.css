@@ -184,7 +184,7 @@ and (orientation: portrait) {
         /* added relative */
         font-size: 100px;
         position: relative;
-        max-width: 550px;
+        max-width: 350px;
         color: rgb(0, 202, 253);
         overflow: hidden; /* Ensures the content is not revealed until the animation */
         border-right: .10em solid rgb(0, 202, 253); /* The typwriter cursor */
