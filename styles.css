@@ -49,6 +49,22 @@ html, body {
     /* letter-spacing: 1px; */
 }
 
+/* who details */
+.flex-me-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(0, 202, 253);
+
+    width: 100%;
+
+    padding-top: 20px;
+    /* height: 25%; */
+    /* border: 1px solid red; */
+}
+
 .description-me h4 {
     font-size: 22px;
 }
@@ -289,19 +305,11 @@ polygon.arrow-top {
 
 }
 
-#about-me-text-content {
-    font-family: 'Source Code Pro', monospace;
-    color: rgb(0, 202, 253);
-    position: relative;
-    letter-spacing: -2px;
-}
-
 #about-me-text-content-2 {
     font-family: 'Source Code Pro', monospace;
     color: #e9e0c9;
     position: relative;
     letter-spacing: -2px;
-    padding-top: 10px;
     padding-right: 40px;
     padding-left: 40px;
 }
